@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
+body {
+    background-color: #1D232A;
+    font-family: 'Open Sans','icones', sans-serif;
+    color: #FFFFFF;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: #15191C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+}
+
+.cabecalho-menu i::before{
+    content: '\e904';
+    font-size:24px;
+}
+
+.cabecalho-logo {
+    width: 40px;
+}
+
+.cabecalho-notif i::before{
+    content: '\e906';
+    font-size:24px;
+}
+
+.menu-lateral{
+    display:flex;
+    flex-direction: column;
+    background-color: #15191C;
+    width: 75vw;
+    height: 100vh;
+}
+
+.cabecalho-menu-lateral{
+    margin: 2em 0 0 0;
+    padding-left: 64px;
+}
+
+.logo-image {
+    align-self: center;
+    width: 118px;
+    padding: 16px;
+}
