@@ -38,15 +38,89 @@ body {
     background-color: #15191C;
     width: 75vw;
     height: 100vh;
+
+    left: -100vw;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.menu-lateral--active{
+    left:0;
+    transition: 0.5s;
 }
 
 .cabecalho-menu-lateral{
-    margin: 2em 0 0 0;
     padding-left: 64px;
+    height: 64px;
+    display:flex;
+    align-items: center;
 }
 
 .logo-image {
     align-self: center;
     width: 118px;
     padding: 16px;
+}
+
+.menu-inicio {
+    border-left: 4px solid white;
+    left: 0;
+}
+
+.cabecalho-menu-lateral__start::before{
+    content: '\e902';
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 24px;
+}
+
+.cabecalho-menu-lateral__videos::before{
+    content: '\e90e';
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 24px;
+}
+
+.cabecalho-menu-lateral__picos::before{
+    content: '\e909';
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 24px;
+}
+
+.cabecalho-menu-lateral__integ::before{
+    content: '\e903';
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 24px;
+}
+
+.cabecalho-menu-lateral__tshirts::before{
+    content: '\e900';
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 24px;
+}
+
+.cabecalho-menu-lateral__pictures::before{
+    content: '\e90a';
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 24px;
+}
+
+.cabecalho-link{
+    color:#95999C
 }
